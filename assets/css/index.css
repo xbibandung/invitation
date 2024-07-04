@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+body {
+    font-family: "Black Han Sans", sans-serif;
+    background-image: linear-gradient(black, black), url('/assets//img/background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: saturation;
+}
