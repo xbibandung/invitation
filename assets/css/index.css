@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Herr+Von+Muellerhoff&display=swap');
 
 body {
     font-family: "Black Han Sans", sans-serif;
@@ -8,4 +10,14 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-blend-mode: saturation;
+}
+
+.xbi-title {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.xbi-bandung-title {
+    font-family: "Herr Von Muellerhoff", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
