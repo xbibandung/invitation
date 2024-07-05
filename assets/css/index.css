@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Herr+Von+Muellerhoff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 body {
     font-family: "Black Han Sans", sans-serif;
-    background-image: linear-gradient(black, black), url('../img/background.jpg');
+    background-image: linear-gradient(black, black), url('../img/background.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,10 +15,10 @@ body {
 
 .xbi-title {
     font-family: "Bebas Neue", sans-serif;
-    letter-spacing: 1.25rem;
+    letter-spacing: 1rem;
 
     animation-name: letter-spacing;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-delay: 0.5s;
     animation-timing-function: cubic-bezier(.26,.53,.74,1.48);
     animation-fill-mode: backwards;
@@ -27,6 +28,15 @@ body {
     font-family: "Herr Von Muellerhoff", cursive;
     font-weight: 400;
     font-style: normal;
+}
+
+.yellow-round {
+    animation-name: animate-slide;
+    animation-duration: 0.75s;
+    animation-duration: 2s;
+    animation-delay: 0.8s;
+    animation-timing-function: cubic-bezier(.26,.53,.74,1.48);
+    animation-fill-mode: backwards;
 }
 
 .photo {
@@ -41,11 +51,15 @@ body {
 .photo-front {
     animation-name: animate-slide;
     animation-duration: 0.75s;
-    animation-duration: 1s;
+    animation-duration: 1.3s;
     animation-delay: 1s;
     animation-timing-function: cubic-bezier(.26,.53,.74,1.48);
     animation-fill-mode: backwards;
 }
+
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+} 
 
 @keyframes animate-slide {
     0% {
@@ -60,19 +74,17 @@ body {
 
 @keyframes letter-spacing {
     0% {
-        letter-spacing: 0em;
+        letter-spacing: 0rem;
         opacity: 0;
     }
-    40% {
+    50% {
+        letter-spacing: 1.25rem;
         opacity: 1;
     }
     60% {
-        letter-spacing: 2rem;
-    }
-    75% {
-        letter-spacing: 2rem;
+        letter-spacing: 1.25rem;
     }
     100% {
-        letter-spacing: 1.25rem;
+        letter-spacing: 1rem;
     }
 }
