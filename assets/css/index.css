@@ -59,7 +59,11 @@ body {
 
 .open-sans {
     font-family: "Open Sans", sans-serif;
-} 
+}
+
+#invitation-guest {
+    font-family: "Bebas Neue", sans-serif;
+}
 
 @keyframes animate-slide {
     0% {
