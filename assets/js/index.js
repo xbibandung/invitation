@@ -1,6 +1,6 @@
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
-const listOfInvitation = ["Pengurus Nasional XSR Brotherhood Indonesia", "Pengutus Regional XBI Jabar", "Seluruh Member XBI Regional Jabar", "Seluruh Member XBI Chapter Bandung"]
+const listOfInvitation = ["Pengurus Nasional XSR Brotherhood Indonesia", "Pengurus Regional XBI Jabar", "Seluruh Member XBI Regional Jabar", "Seluruh Member XBI Chapter Bandung"]
 
 let invName = urlParams.get('to');
 if (invName === null) invName = '';
